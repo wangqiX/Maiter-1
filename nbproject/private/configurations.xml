@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bin">
+        <df name="release">
+          <df name="CMakeFiles">
+            <df name="2.8.12.2">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <df name="CMakeTmp">
+              <in>src.c</in>
+            </df>
+          </df>
+          <df name="examples">
+            <df name="CMakeFiles">
+              <df name="example.dir">
+              </df>
+              <df name="example_proto.dir">
+              </df>
+              <df name="maiter.dir">
+              </df>
+            </df>
+          </df>
+          <df name="external">
+            <df name="google-flags">
+              <df name="CMakeFiles">
+                <df name="gflags.dir">
+                </df>
+              </df>
+            </df>
+            <df name="google-logging">
+              <df name="CMakeFiles">
+                <df name="glog.dir">
+                </df>
+              </df>
+            </df>
+            <df name="webgraph">
+              <df name="CMakeFiles">
+                <df name="webgraph.dir">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="kernel">
+            <df name="CMakeFiles">
+              <df name="kernel.dir">
+              </df>
+            </df>
+          </df>
+          <df name="master">
+            <df name="CMakeFiles">
+              <df name="master.dir">
+              </df>
+            </df>
+          </df>
+          <df name="util">
+            <df name="CMakeFiles">
+              <df name="common.dir">
+              </df>
+              <df name="common_proto.dir">
+              </df>
+            </df>
+            <in>common.pb.cc</in>
+            <in>common.pb.h</in>
+          </df>
+          <df name="worker">
+            <df name="CMakeFiles">
+              <df name="worker.dir">
+              </df>
+              <df name="worker_proto.dir">
+              </df>
+            </df>
+            <in>worker.pb.cc</in>
+            <in>worker.pb.h</in>
+          </df>
+        </df>
+      </df>
+      <df name="cmake">
+      </df>
+      <df name="conf">
+      </df>
+      <df name="input">
+        <df name="pagerank">
+        </df>
+        <df name="simrank">
+        </df>
+      </df>
+      <df name="result">
+        <df name="pagerank">
+        </df>
+        <df name="simrank">
+        </df>
+      </df>
+      <df name="src">
+        <df name="client">
+          <in>client.h</in>
+        </df>
+        <df name="examples">
+          <in>adsorption.cc</in>
+          <in>beliefpropa.cc</in>
+          <in>con_component.cc</in>
+          <in>examples.h</in>
+          <in>gengraph.cc</in>
+          <in>katz.cc</in>
+          <in>main.cc</in>
+          <in>pagerank.cc</in>
+          <in>shortestpath.cc</in>
+          <in>simrank.cc</in>
+        </df>
+        <df name="external">
+          <df name="google-flags">
+            <df name="CMakeFiles">
+              <df name="gflags.dir">
+              </df>
+            </df>
+            <df name="gflags">
+              <in>gflags.h</in>
+            </df>
+            <df name="google">
+              <in>gflags.h</in>
+            </df>
+            <in>gflags-config.h</in>
+            <in>gflags.cc</in>
+            <in>gflags_nc.cc</in>
+            <in>gflags_reporting.cc</in>
+            <in>mutex.h</in>
+          </df>
+          <df name="google-logging">
+            <df name="base">
+              <in>commandlineflags.h</in>
+              <in>googleinit.h</in>
+              <in>mutex.h</in>
+            </df>
+            <df name="CMakeFiles">
+              <df name="glog.dir">
+              </df>
+            </df>
+            <df name="glog">
+              <in>log_severity.h</in>
+              <in>logging.h</in>
+              <in>raw_logging.h</in>
+              <in>stl_logging.h</in>
+              <in>vlog_is_on.h</in>
+            </df>
+            <in>demangle.cc</in>
+            <in>demangle.h</in>
+            <in>glog-config.h</in>
+            <in>googletest.h</in>
+            <in>logging.cc</in>
+            <in>mock-log.h</in>
+            <in>raw_logging.cc</in>
+            <in>signalhandler.cc</in>
+            <in>stacktrace.h</in>
+            <in>stacktrace_generic-inl.h</in>
+            <in>stacktrace_libunwind-inl.h</in>
+            <in>stacktrace_powerpc-inl.h</in>
+            <in>stacktrace_x86-inl.h</in>
+            <in>stacktrace_x86_64-inl.h</in>
+            <in>symbolize.cc</in>
+            <in>symbolize.h</in>
+            <in>utilities.cc</in>
+            <in>utilities.h</in>
+            <in>vlog_is_on.cc</in>
+          </df>
+          <df name="webgraph">
+            <df name="CMakeFiles">
+              <df name="webgraph.dir">
+              </df>
+            </df>
+            <in>webgraph.cc</in>
+            <in>webgraph.h</in>
+          </df>
+        </df>
+        <df name="kernel">
+          <in>CopyTable.h</in>
+          <in>deltatable.h</in>
+          <in>global-table.cc</in>
+          <in>global-table.h</in>
+          <in>kernel.cc</in>
+          <in>kernel.h</in>
+          <in>local-table.cc</in>
+          <in>local-table.h</in>
+          <in>statetable.h</in>
+          <in>table-registry.cc</in>
+          <in>table-registry.h</in>
+          <in>table.h</in>
+          <in>test-tables.cc</in>
+        </df>
+        <df name="master">
+          <in>master.cc</in>
+          <in>master.h</in>
+        </df>
+        <df name="util">
+          <in>common.cc</in>
+          <in>common.h</in>
+          <in>file.cc</in>
+          <in>file.h</in>
+          <in>hash.h</in>
+          <in>rpc.cc</in>
+          <in>rpc.h</in>
+          <in>static-initializers.cc</in>
+          <in>static-initializers.h</in>
+          <in>stringpiece.cc</in>
+          <in>stringpiece.h</in>
+          <in>timer.h</in>
+          <in>tuple.h</in>
+        </df>
+        <df name="worker">
+          <in>worker.cc</in>
+          <in>worker.h</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

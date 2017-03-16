@@ -1,0 +1,12 @@
+/home/wangq/Maiter-1/bin/release/util/CMakeFiles/common.dir
+/home/wangq/Maiter-1/bin/release/util/CMakeFiles/common_proto.dir
+/home/wangq/Maiter-1/bin/release/examples/CMakeFiles/example.dir
+/home/wangq/Maiter-1/bin/release/examples/CMakeFiles/example_proto.dir
+/home/wangq/Maiter-1/bin/release/external/google-flags/CMakeFiles/gflags.dir
+/home/wangq/Maiter-1/bin/release/external/google-logging/CMakeFiles/glog.dir
+/home/wangq/Maiter-1/bin/release/kernel/CMakeFiles/kernel.dir
+/home/wangq/Maiter-1/bin/release/examples/CMakeFiles/maiter.dir
+/home/wangq/Maiter-1/bin/release/master/CMakeFiles/master.dir
+/home/wangq/Maiter-1/bin/release/external/webgraph/CMakeFiles/webgraph.dir
+/home/wangq/Maiter-1/bin/release/worker/CMakeFiles/worker.dir
+/home/wangq/Maiter-1/bin/release/worker/CMakeFiles/worker_proto.dir

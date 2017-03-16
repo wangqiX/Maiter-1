@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkernel.a  CMakeFiles/kernel.dir/kernel.cc.o CMakeFiles/kernel.dir/table-registry.cc.o CMakeFiles/kernel.dir/local-table.cc.o CMakeFiles/kernel.dir/global-table.cc.o
+/usr/bin/ranlib libkernel.a

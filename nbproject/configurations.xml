@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bin">
+        <df name="release">
+          <df name="CMakeFiles">
+            <df name="2.8.12.2">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <df name="CMakeTmp">
+              <in>src.c</in>
+            </df>
+          </df>
+          <df name="util">
+            <in>common.pb.cc</in>
+          </df>
+          <df name="worker">
+            <in>worker.pb.cc</in>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="examples">
+          <in>adsorption.cc</in>
+          <in>katz.cc</in>
+          <in>main.cc</in>
+          <in>pagerank.cc</in>
+          <in>shortestpath.cc</in>
+          <in>simrank.cc</in>
+        </df>
+        <df name="external">
+          <df name="google-flags">
+            <in>gflags.cc</in>
+            <in>gflags_nc.cc</in>
+            <in>gflags_reporting.cc</in>
+          </df>
+          <df name="google-logging">
+            <in>demangle.cc</in>
+            <in>logging.cc</in>
+            <in>raw_logging.cc</in>
+            <in>signalhandler.cc</in>
+            <in>symbolize.cc</in>
+            <in>utilities.cc</in>
+            <in>vlog_is_on.cc</in>
+          </df>
+          <df name="webgraph">
+            <in>webgraph.cc</in>
+          </df>
+        </df>
+        <df name="kernel">
+          <in>global-table.cc</in>
+          <in>kernel.cc</in>
+          <in>local-table.cc</in>
+          <in>table-registry.cc</in>
+        </df>
+        <df name="master">
+          <in>master.cc</in>
+        </df>
+        <df name="util">
+          <in>common.cc</in>
+          <in>file.cc</in>
+          <in>rpc.cc</in>
+          <in>static-initializers.cc</in>
+          <in>stringpiece.cc</in>
+        </df>
+        <df name="worker">
+          <in>worker.cc</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="Modules"
+                   displayName="Modules"
+                   projectFiles="true"
+                   root="/usr/share/cmake-2.8/Modules">
+      <itemPath>/usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c</itemPath>
+      <itemPath>/usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp</itemPath>
+      <itemPath>/usr/share/cmake-2.8/Modules/CMakeCompilerABI.h</itemPath>
+      <itemPath>/usr/share/cmake-2.8/Modules/CheckFunctionExists.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC -O3"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>maiter</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="/usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/usr/share/cmake-2.8/Modules/CheckFunctionExists.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>CHECK_FUNCTION_EXISTS=pthread_create</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="bin/release/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="bin/release/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="bin/release/CMakeFiles/CMakeTmp/src.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="bin/release/util/common.pb.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="bin/release/worker/worker.pb.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0">
+        <cTool>
+          <standard>9</standard>
+        </cTool>
+        <ccTool>
+          <standard>9</standard>
+        </ccTool>
+      </folder>
+      <folder path="0/bin/release/CMakeFiles/CMakeTmp">
+        <cTool>
+          <preprocessorList>
+            <Elem>CompilePCFromUContext</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/bin/release/util">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/util</pElem>
+            <pElem>src/util</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_LIBUNWIND_H</Elem>
+            <Elem>HAVE_LIB_GFLAGS</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>PC_FROM_UCONTEXT=uc_mcontext.gregs[REG_RIP]</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/bin/release/worker">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/worker</pElem>
+            <pElem>src/worker</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_LIBUNWIND_H</Elem>
+            <Elem>HAVE_LIB_GFLAGS</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>PC_FROM_UCONTEXT=uc_mcontext.gregs[REG_RIP]</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_LIBUNWIND_H</Elem>
+            <Elem>HAVE_LIB_GFLAGS</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>PC_FROM_UCONTEXT=uc_mcontext.gregs[REG_RIP]</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/examples">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/examples</pElem>
+            <pElem>src/examples</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/external/google-flags">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/external/google-flags</pElem>
+            <pElem>src/external/google-flags</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/external/google-logging">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/external/google-logging</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/google-flags</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/external/webgraph">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/external/webgraph</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/kernel">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/kernel</pElem>
+            <pElem>src/kernel</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/master">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/master</pElem>
+            <pElem>src/master</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/util">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/util</pElem>
+            <pElem>src/util</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/worker">
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/worker</pElem>
+            <pElem>src/worker</pElem>
+            <pElem>src</pElem>
+            <pElem>bin/release</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>src/external/google-flags</pElem>
+            <pElem>src/external/google-logging</pElem>
+            <pElem>src/external/webgraph</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Modules">
+        <cTool>
+          <incDir>
+            <pElem>bin/release/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>bin/release/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/examples/adsorption.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/examples/katz.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/examples/main.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/examples/pagerank.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/examples/shortestpath.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/examples/simrank.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-flags/gflags.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-flags/gflags_nc.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-flags/gflags_reporting.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/demangle.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/logging.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/raw_logging.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/signalhandler.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/symbolize.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/utilities.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/google-logging/vlog_is_on.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/external/webgraph/webgraph.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/kernel/global-table.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/kernel/kernel.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/kernel/local-table.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/kernel/table-registry.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/master/master.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/util/common.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/util/file.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/util/rpc.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/util/static-initializers.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/util/stringpiece.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/worker/worker.cc" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

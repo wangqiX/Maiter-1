@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/wangq/Maiter-1/src/util/common.h</file>
+            <file>file:/home/wangq/Maiter-1/src/examples/pagerank.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/table-registry.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/table-registry.h</file>
+            <file>file:/home/wangq/Maiter-1/src/master/master.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/deltatable.h</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/global-table.h</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/local-table.h</file>
+            <file>file:/home/wangq/Maiter-1/src/worker/worker.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/kernel.h</file>
+            <file>file:/home/wangq/Maiter-1/src/util/common.cc</file>
+            <file>file:/home/wangq/Maiter-1/bin/release/worker/worker.pb.h</file>
+            <file>file:/home/wangq/Maiter-1/bin/release/worker/worker.pb.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/worker/worker.h</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/table.h</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/global-table.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/master/master.h</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/statetable.h</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/local-table.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/examples/main.cc</file>
+            <file>file:/home/wangq/Maiter-1/bin/release/util/common.pb.cc</file>
+            <file>file:/home/wangq/Maiter-1/src/kernel/CopyTable.h</file>
+        </group>
+    </open-files>
+</project-private>

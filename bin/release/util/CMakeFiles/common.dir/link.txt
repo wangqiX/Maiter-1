@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcommon.a  CMakeFiles/common.dir/common.cc.o CMakeFiles/common.dir/file.cc.o CMakeFiles/common.dir/stringpiece.cc.o CMakeFiles/common.dir/rpc.cc.o CMakeFiles/common.dir/static-initializers.cc.o CMakeFiles/common.dir/common.pb.cc.o
+/usr/bin/ranlib libcommon.a

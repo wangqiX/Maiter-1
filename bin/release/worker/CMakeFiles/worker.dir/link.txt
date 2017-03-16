@@ -1,0 +1,2 @@
+/usr/bin/ar cr libworker.a  CMakeFiles/worker.dir/worker.cc.o CMakeFiles/worker.dir/worker.pb.cc.o
+/usr/bin/ranlib libworker.a

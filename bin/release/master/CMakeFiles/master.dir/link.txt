@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmaster.a  CMakeFiles/master.dir/master.cc.o
+/usr/bin/ranlib libmaster.a
