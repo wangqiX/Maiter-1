@@ -1,33 +1,5 @@
--- OVERVIEW
-
-Maiter is implemented by modifying Piccolo.
-
--- PREREQUISITES
-
-On debian/ubuntu, the required libraries can be acquired by running:
-
-sudo apt-get install build-essential cmake g++ libboost-dev libboost-python-dev libboost-thread-dev liblzo2-dev libnuma-dev libopenmpi-dev libprotobuf-dev libcr-dev libibverbs-dev openmpi-bin protobuf-compiler liblapack-dev
- 
-the optional libraries can be install via:
-
-sudo apt-get install libgoogle-perftools-dev python-dev swig
-
--- BUILDING
-
-Simply run 'make', a runnable file 'maiter' will be appeared if build is successful.
-
--- RUNNING
-
-To execute a Piccolo program, you will need to modify conf/mpi-cluster
-to point to the set of machines Piccolo will be executed on - for example, a file
-might look like:
-
-localhost slots=1
-a slots=4
-b slots=4
-c slots=4
-
-Which would allow for running up to 12 workers (+ 1 master process).
+Maiter改进：
+对于出度大于一定阈值的结点，创建其副本，降低通信量。
 
 The following is the script to run pagerank
 ---------------------------------------------
